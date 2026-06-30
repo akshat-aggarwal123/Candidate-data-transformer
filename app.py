@@ -40,6 +40,49 @@ def _save_upload(uploaded_file) -> str | None:
     return tmp.name
 
 
+def _decode(uploaded_file) -> str:
+    """Return an uploaded file's text content without consuming its buffer."""
+    raw = uploaded_file.getvalue()
+    if isinstance(raw, bytes):
+        return raw.decode("utf-8-sig", errors="replace")
+    return str(raw)
+
+
+def render_source_previews(csv_file, ats_file, notes_file, github_urls):
+    """Show the raw contents of each provided source so the messy input is visible."""
+    if not any([csv_file, ats_file, notes_file, github_urls]):
+        return
+    st.subheader("📥 Input sources")
+    st.caption("The raw, messy data going into the pipeline — before any normalization or merging.")
+
+    if csv_file is not None:
+        with st.expander(f"📄 Recruiter CSV — `{csv_file.name}`", expanded=True):
+            text = _decode(csv_file)
+            try:
+                import csv as _csv
+                rows = list(_csv.DictReader(text.splitlines()))
+                st.dataframe(rows, use_container_width=True)
+            except Exception:
+                st.code(text, language="text")
+
+    if ats_file is not None:
+        with st.expander(f"🗂️ ATS JSON — `{ats_file.name}`", expanded=True):
+            try:
+                st.json(json.loads(_decode(ats_file)))
+            except Exception:
+                st.code(_decode(ats_file), language="json")
+
+    if notes_file is not None:
+        with st.expander(f"📝 Recruiter notes — `{notes_file.name}`", expanded=True):
+            st.code(_decode(notes_file), language="text")
+
+    if github_urls:
+        with st.expander(f"🐙 GitHub — {', '.join(github_urls)}", expanded=False):
+            st.write("Fetched live from the public GitHub API when you run the pipeline.")
+            for u in github_urls:
+                st.markdown(f"- [{u}](https://github.com/{u})")
+
+
 # ── Sidebar: sources & config ─────────────────────────────────────────────────
 with st.sidebar:
     st.header("1 · Sources")
@@ -98,10 +141,14 @@ with st.sidebar:
 run_clicked = st.sidebar.button("▶ Run pipeline", type="primary", use_container_width=True)
 
 
-# ── Main: run & show results ──────────────────────────────────────────────────
-if run_clicked:
-    github_urls = [g.strip() for g in github_input.split(",") if g.strip()] if github_input else None
+# Parse GitHub input once, used for both preview and run
+github_urls = [g.strip() for g in github_input.split(",") if g.strip()] if github_input else None
 
+# ── Main: always preview whatever sources are loaded ──────────────────────────
+render_source_previews(csv_file, ats_file, notes_file, github_urls)
+
+# ── Run & show results ────────────────────────────────────────────────────────
+if run_clicked:
     if not any([csv_file, ats_file, notes_file, github_urls]):
         st.warning("Provide at least one source in the sidebar.")
         st.stop()
@@ -168,11 +215,14 @@ if run_clicked:
         mime="application/json",
     )
 else:
-    st.info("⬅ Add at least one source and a config in the sidebar, then click **Run pipeline**.")
-    st.markdown(
-        "**Try the bundled samples** (from the repo root):\n"
-        "- `samples/candidates.csv` — Recruiter CSV\n"
-        "- `samples/ats_data.json` — ATS JSON\n"
-        "- `samples/recruiter_notes.txt` — Recruiter notes\n\n"
-        "Or just type a GitHub username like `torvalds`."
-    )
+    if any([csv_file, ats_file, notes_file, github_urls]):
+        st.info("⬅ Sources loaded. Click **Run pipeline** in the sidebar to transform them.")
+    else:
+        st.info("⬅ Add at least one source and a config in the sidebar, then click **Run pipeline**.")
+        st.markdown(
+            "**Try the bundled samples** (from the repo root):\n"
+            "- `samples/candidates.csv` — Recruiter CSV\n"
+            "- `samples/ats_data.json` — ATS JSON\n"
+            "- `samples/recruiter_notes.txt` — Recruiter notes\n\n"
+            "Or just type a GitHub username like `torvalds`."
+        )
