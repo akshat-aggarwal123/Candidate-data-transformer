@@ -1,0 +1,25 @@
+Candidate: Priya Sharma
+Email: priya.sharma@gmail.com
+Phone: (415) 555-0192
+
+Met with Priya on Tuesday. Strong communication, very articulate about her architecture decisions.
+Currently at DataCorp as Senior Data Engineer. 6+ years experience.
+
+Skills: Python, Spark, Kafka, Airflow, AWS, dbt, SQL
+LinkedIn: linkedin.com/in/priyasharma
+GitHub: github.com/priyasharma
+
+Notes: Looking for Staff or Principal level roles. Prefers remote-first companies.
+Open to relocation to Seattle. Currently in San Francisco.
+Salary expectation: $220K-$260K. Available in 3 weeks notice period.
+Very strong candidate — recommend moving to technical screen.
+---
+Candidate: James O'Brien
+Email: james.obrien@email.com
+
+Spoke briefly. Works at FinTech Inc as Backend Engineer.
+Skills: Java, Spring Boot, PostgreSQL, Docker, Kubernetes, Redis
+4 years experience. Good culture fit, solid technical base.
+Title: Backend Engineer
+Currently at FinTech Inc.
+---

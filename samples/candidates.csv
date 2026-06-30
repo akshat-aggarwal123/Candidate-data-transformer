@@ -1,0 +1,6 @@
+name,email,phone,current_company,title,location,linkedin,github,skills,years_experience,headline
+"Priya Sharma","priya.sharma@gmail.com","(415) 555-0192","DataCorp","Senior Data Engineer","San Francisco, CA, US","https://linkedin.com/in/priyasharma","https://github.com/priyasharma","Python,Spark,Kafka,SQL,AWS",6,"Building scalable data pipelines at DataCorp"
+"James O'Brien","james.obrien@email.com","(212) 555-0847","FinTech Inc","Backend Engineer","New York, NY, US","https://linkedin.com/in/jamesobrien","https://github.com/jamesobrien","Java,Spring Boot,PostgreSQL,Docker,Kubernetes",4,"Java backend engineer passionate about distributed systems"
+"Li Wei","li.wei@example.com","","TechStart","Full Stack Developer","Singapore","","https://github.com/liwei_dev","JavaScript,React,Node.js,MongoDB,Python",3,""
+"","","","","","","","","","",""
+"Ana Rodrigues","ana.rodrigues@example.com","+55 11 99999-1234","OpenSource Co","ML Engineer","Brazil","https://linkedin.com/in/anarodrigues","","TensorFlow,PyTorch,Python,scikit-learn",5,"Deep learning researcher and engineer"

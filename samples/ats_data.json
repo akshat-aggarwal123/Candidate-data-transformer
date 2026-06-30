@@ -1,0 +1,103 @@
+[
+  {
+    "candidate_name": "Priya Sharma",
+    "email_address": "priya.sharma@gmail.com",
+    "phone_number": "+14155550192",
+    "current_employer": "DataCorp",
+    "job_title": "Senior Data Engineer",
+    "location": "San Francisco, CA, US",
+    "linkedin_url": "https://linkedin.com/in/priyasharma",
+    "github_url": "https://github.com/priyasharma",
+    "summary": "Experienced data engineer with 6+ years building real-time pipelines.",
+    "skills": ["Python", "Apache Spark", "Kafka", "AWS", "SQL", "Airflow"],
+    "years_of_experience": 6,
+    "work_experience": [
+      {
+        "company": "DataCorp",
+        "title": "Senior Data Engineer",
+        "start_date": "2020-03",
+        "end_date": null,
+        "summary": "Leading data platform team, managing petabyte-scale pipelines."
+      },
+      {
+        "company": "Analytics Ltd",
+        "title": "Data Engineer",
+        "start_date": "2018-06",
+        "end_date": "2020-02",
+        "summary": "Built ETL pipelines for financial reporting."
+      }
+    ],
+    "education": [
+      {
+        "institution": "UC Berkeley",
+        "degree": "B.S.",
+        "field": "Computer Science",
+        "end_year": 2018
+      }
+    ]
+  },
+  {
+    "applicant_name": "James O'Brien",
+    "email_address": "james.obrien@email.com",
+    "phone_number": "+12125550847",
+    "current_employer": "FinTech Inc",
+    "job_title": "Backend Engineer",
+    "location": "New York, NY, US",
+    "linkedin_url": "https://linkedin.com/in/jamesobrien",
+    "summary": "Backend engineer specializing in high-throughput financial systems.",
+    "skill_set": ["Java", "Spring Boot", "Microservices", "PostgreSQL", "Redis", "Kubernetes"],
+    "years_of_experience": 4,
+    "work_experience": [
+      {
+        "company": "FinTech Inc",
+        "title": "Backend Engineer",
+        "start_date": "2021-01",
+        "end_date": null,
+        "summary": "Building payment processing APIs handling 10M transactions/day."
+      },
+      {
+        "company": "Startup XYZ",
+        "title": "Junior Developer",
+        "start_date": "2019-06",
+        "end_date": "2020-12",
+        "summary": "Full-stack development with focus on backend services."
+      }
+    ],
+    "education": [
+      {
+        "institution": "NYU",
+        "degree": "B.S.",
+        "field": "Computer Science",
+        "end_year": 2019
+      }
+    ]
+  },
+  {
+    "first_name": "Amir",
+    "last_name": "Hassan",
+    "email_address": "amir.hassan@example.com",
+    "phone_number": "+971501234567",
+    "current_employer": "Gulf Tech",
+    "job_title": "DevOps Engineer",
+    "location": "Dubai, UAE",
+    "technologies": ["Docker", "Kubernetes", "Terraform", "AWS", "Linux", "CI/CD"],
+    "years_of_experience": 5,
+    "work_experience": [
+      {
+        "company": "Gulf Tech",
+        "title": "DevOps Engineer",
+        "start_date": "2020-09",
+        "end_date": null,
+        "summary": "Managing cloud infrastructure for 50+ microservices."
+      }
+    ],
+    "education": [
+      {
+        "institution": "American University of Sharjah",
+        "degree": "B.S.",
+        "field": "Computer Engineering",
+        "end_year": 2019
+      }
+    ]
+  }
+]

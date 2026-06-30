@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+
+# Claude
+.claude/
+
+# Editor
+.vscode/
+.idea/
+
+# Design doc (submitted separately, not part of the runnable repo)
+*.pdf
+generate_design_doc.py

@@ -1,0 +1,113 @@
+[
+  {
+    "full_name": "Priya Sharma",
+    "primary_email": "priya.sharma@gmail.com",
+    "phone": "+14155550192",
+    "title": "Senior Data Engineer",
+    "company": "DataCorp",
+    "location_city": "San Francisco",
+    "location_country": "US",
+    "skills": [
+      "AWS",
+      "Airflow",
+      "Apache Spark",
+      "Kafka",
+      "Python",
+      "SQL",
+      "Spark",
+      "dbt"
+    ],
+    "github_url": "https://github.com/priyasharma",
+    "linkedin_url": "https://linkedin.com/in/priyasharma",
+    "years_experience": 6.0,
+    "headline": "Experienced data engineer with 6+ years building real-time pipelines.",
+    "overall_confidence": 0.913
+  },
+  {
+    "full_name": "James O'Brien",
+    "primary_email": "james.obrien@email.com",
+    "phone": "+12125550847",
+    "title": "Backend Engineer",
+    "company": "FinTech Inc",
+    "location_city": "New York",
+    "location_country": "US",
+    "skills": [
+      "Docker",
+      "Inc as Backend Engineer.",
+      "Java",
+      "Kubernetes",
+      "Microservices",
+      "PostgreSQL",
+      "Redis",
+      "Spring Boot"
+    ],
+    "github_url": "https://github.com/jamesobrien",
+    "linkedin_url": "https://linkedin.com/in/jamesobrien",
+    "years_experience": 4.0,
+    "headline": "Backend engineer specializing in high-throughput financial systems.",
+    "overall_confidence": 0.913
+  },
+  {
+    "full_name": "Li Wei",
+    "primary_email": "li.wei@example.com",
+    "phone": null,
+    "title": "Full Stack Developer",
+    "company": "TechStart",
+    "location_city": null,
+    "location_country": "SG",
+    "skills": [
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "Python",
+      "React"
+    ],
+    "github_url": "https://github.com/liwei_dev",
+    "linkedin_url": null,
+    "years_experience": 3.0,
+    "headline": null,
+    "overall_confidence": 0.88
+  },
+  {
+    "full_name": "Ana Rodrigues",
+    "primary_email": "ana.rodrigues@example.com",
+    "phone": "+5511999991234",
+    "title": "ML Engineer",
+    "company": "OpenSource Co",
+    "location_city": null,
+    "location_country": "BR",
+    "skills": [
+      "PyTorch",
+      "Python",
+      "TensorFlow",
+      "scikit-learn"
+    ],
+    "github_url": null,
+    "linkedin_url": "https://linkedin.com/in/anarodrigues",
+    "years_experience": 5.0,
+    "headline": "Deep learning researcher and engineer",
+    "overall_confidence": 0.83
+  },
+  {
+    "full_name": "Amir Hassan",
+    "primary_email": "amir.hassan@example.com",
+    "phone": "+971501234567",
+    "title": "DevOps Engineer",
+    "company": "Gulf Tech",
+    "location_city": "Dubai",
+    "location_country": "AE",
+    "skills": [
+      "AWS",
+      "CI/CD",
+      "Docker",
+      "Kubernetes",
+      "Linux",
+      "Terraform"
+    ],
+    "github_url": null,
+    "linkedin_url": null,
+    "years_experience": 5.0,
+    "headline": null,
+    "overall_confidence": 0.98
+  }
+]

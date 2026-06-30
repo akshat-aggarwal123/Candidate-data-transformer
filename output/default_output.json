@@ -1,0 +1,896 @@
+[
+  {
+    "candidate_id": "55ff5ce8-8b65-5b6a-940b-ac791bd0c73e",
+    "full_name": "Priya Sharma",
+    "emails": [
+      "priya.sharma@gmail.com"
+    ],
+    "phones": [
+      "+14155550192"
+    ],
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/priyasharma",
+      "github": "https://github.com/priyasharma",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Experienced data engineer with 6+ years building real-time pipelines.",
+    "years_experience": 6.0,
+    "skills": [
+      {
+        "name": "AWS",
+        "confidence": 0.883,
+        "sources": [
+          "ats_json",
+          "recruiter_csv",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Airflow",
+        "confidence": 0.8,
+        "sources": [
+          "ats_json",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Apache Spark",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "Kafka",
+        "confidence": 0.883,
+        "sources": [
+          "ats_json",
+          "recruiter_csv",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.883,
+        "sources": [
+          "ats_json",
+          "recruiter_csv",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "SQL",
+        "confidence": 0.883,
+        "sources": [
+          "ats_json",
+          "recruiter_csv",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Spark",
+        "confidence": 0.75,
+        "sources": [
+          "recruiter_csv",
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "dbt",
+        "confidence": 0.5,
+        "sources": [
+          "recruiter_notes"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "DataCorp",
+        "title": "Senior Data Engineer",
+        "start": "2020-03",
+        "end": null,
+        "summary": "Leading data platform team, managing petabyte-scale pipelines."
+      },
+      {
+        "company": "Analytics Ltd",
+        "title": "Data Engineer",
+        "start": "2018-06",
+        "end": "2020-02",
+        "summary": "Built ETL pipelines for financial reporting."
+      }
+    ],
+    "education": [
+      {
+        "institution": "UC Berkeley",
+        "degree": "B.S.",
+        "field": "Computer Science",
+        "end_year": 2018
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "location",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "links.github",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "regex_extract"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "education",
+        "source": "ats_json",
+        "method": "json_parse"
+      }
+    ],
+    "overall_confidence": 0.913
+  },
+  {
+    "candidate_id": "9aeac5cd-e2c2-5537-9cee-fdbe5f8a5ce4",
+    "full_name": "James O'Brien",
+    "emails": [
+      "james.obrien@email.com"
+    ],
+    "phones": [
+      "+12125550847"
+    ],
+    "location": {
+      "city": "New York",
+      "region": "NY",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/jamesobrien",
+      "github": "https://github.com/jamesobrien",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Backend engineer specializing in high-throughput financial systems.",
+    "years_experience": 4.0,
+    "skills": [
+      {
+        "name": "Docker",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Inc as Backend Engineer.",
+        "confidence": 0.5,
+        "sources": [
+          "recruiter_notes"
+        ]
+      },
+      {
+        "name": "Java",
+        "confidence": 0.95,
+        "sources": [
+          "ats_json",
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.95,
+        "sources": [
+          "ats_json",
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Microservices",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.95,
+        "sources": [
+          "ats_json",
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Redis",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "Spring Boot",
+        "confidence": 0.95,
+        "sources": [
+          "ats_json",
+          "recruiter_csv"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "FinTech Inc",
+        "title": "Backend Engineer",
+        "start": "2021-01",
+        "end": null,
+        "summary": "Building payment processing APIs handling 10M transactions/day."
+      },
+      {
+        "company": "Startup XYZ",
+        "title": "Junior Developer",
+        "start": "2019-06",
+        "end": "2020-12",
+        "summary": "Full-stack development with focus on backend services."
+      }
+    ],
+    "education": [
+      {
+        "institution": "NYU",
+        "degree": "B.S.",
+        "field": "Computer Science",
+        "end_year": 2019
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "location",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "links.github",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "headline",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "regex_extract"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "json_parse"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "education",
+        "source": "ats_json",
+        "method": "json_parse"
+      }
+    ],
+    "overall_confidence": 0.913
+  },
+  {
+    "candidate_id": "84a966df-1026-5db5-be66-3bfcbc798462",
+    "full_name": "Li Wei",
+    "emails": [
+      "li.wei@example.com"
+    ],
+    "phones": [],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": "SG"
+    },
+    "links": {
+      "linkedin": null,
+      "github": "https://github.com/liwei_dev",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 3.0,
+    "skills": [
+      {
+        "name": "JavaScript",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "MongoDB",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Node.js",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "React",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "TechStart",
+        "title": "Full Stack Developer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "links.github",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      }
+    ],
+    "overall_confidence": 0.88
+  },
+  {
+    "candidate_id": "e4885cea-1a02-500b-8b0c-148c3dfbe5a9",
+    "full_name": "Ana Rodrigues",
+    "emails": [
+      "ana.rodrigues@example.com"
+    ],
+    "phones": [
+      "+5511999991234"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": "BR"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/anarodrigues",
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Deep learning researcher and engineer",
+    "years_experience": 5.0,
+    "skills": [
+      {
+        "name": "PyTorch",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "Python",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "TensorFlow",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      },
+      {
+        "name": "scikit-learn",
+        "confidence": 0.8,
+        "sources": [
+          "recruiter_csv"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "OpenSource Co",
+        "title": "ML Engineer",
+        "start": null,
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "location",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "headline",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "csv_parse"
+      }
+    ],
+    "overall_confidence": 0.83
+  },
+  {
+    "candidate_id": "94896a87-d76d-5ab9-a2dc-570f025e4954",
+    "full_name": "Amir Hassan",
+    "emails": [
+      "amir.hassan@example.com"
+    ],
+    "phones": [
+      "+971501234567"
+    ],
+    "location": {
+      "city": "Dubai",
+      "region": null,
+      "country": "AE"
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": null,
+    "years_experience": 5.0,
+    "skills": [
+      {
+        "name": "AWS",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "CI/CD",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "Linux",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      },
+      {
+        "name": "Terraform",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Gulf Tech",
+        "title": "DevOps Engineer",
+        "start": "2020-09",
+        "end": null,
+        "summary": "Managing cloud infrastructure for 50+ microservices."
+      }
+    ],
+    "education": [
+      {
+        "institution": "American University of Sharjah",
+        "degree": "B.S.",
+        "field": "Computer Engineering",
+        "end_year": 2019
+      }
+    ],
+    "provenance": [
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "location",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "json_parse"
+      },
+      {
+        "field": "education",
+        "source": "ats_json",
+        "method": "json_parse"
+      }
+    ],
+    "overall_confidence": 0.98
+  }
+]
