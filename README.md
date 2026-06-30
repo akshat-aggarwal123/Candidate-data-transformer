@@ -35,7 +35,8 @@ Higher trust wins on scalar conflicts. Lists (emails, phones, skills, experience
 ### Prerequisites
 
 ```bash
-pip3 install -r requirements.txt
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ### Run with sample data
@@ -66,6 +67,16 @@ python3 cli.py --csv samples/candidates.csv --ats samples/ats_data.json \
 ```bash
 python3 -m pytest tests/ -v
 ```
+
+### Web UI (optional)
+
+A minimal Streamlit UI is provided as an alternative to the CLI — upload sources, pick or paste a config, and view the resulting profiles.
+
+```bash
+streamlit run app.py
+```
+
+Then open the URL it prints (default http://localhost:8501). Upload the files in `samples/`, choose a config in the sidebar, and click **Run pipeline**. The UI is a thin view over the same engine — no business logic lives in `app.py`.
 
 ## CLI reference
 
